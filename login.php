@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minimalist</title>
+	<meta charset="utf-8" lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/materialize-admin.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" type="text/css" href="assets/css/global.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/login.css">
+</head>
+<body >
+	<div class="container">
+		<div class="row">
+			<div class="col s12 l8 offset-l2">
+				<div class="card card-login">
+					<div class="card-login-splash">
+						<div class="wrapper">
+							<h2 class="center flow-text">MINIMALIST</h2>
+							<span class="hide-on-med-and-down">
+								<a class="btn waves-effect waves-light blue darken-2" href="#!"><i class="material-icons left">check</i>Sign In</a>
+								<a class="btn waves-effect waves-light green darken-2"  href="#!"><i class="material-icons left">create</i>Register</a>
+							</span>
+							<span class="center hide-on-large-only show-on-medium-and-down">
+								<a class="btn tooltipped btn-floating waves-effect waves-light blue darken-2" href="#!" data-position="bottom" data-tooltip="Sign In"><i class="material-icons" >check</i></a>
+								<a class="btn tooltipped btn-floating waves-effect waves-light green darken-2"  href="#!" data-position="bottom" data-tooltip="Register"><i class="material-icons">create</i></a>
+							</span>
+							
+						</div>
+						<img src="assets/images/1.png" alt="">
+					</div>
+					<div class="card-content">
+					<div class="flow-text center-align">LOG IN<span class="hide-on-small-only"> TO ENTER</span></div>
+						<form>
+							<div class="row">
+								<div class="input-field col s12 m12 l12">
+									<i class="material-icons prefix left">account_circle</i>
+									<input id="username" type="text" class="validate">
+									<label for="username">Username</label>
+								</div>
+								<div class="input-field col s12 m12 l12">
+									<i class="material-icons prefix left">vpn_key</i>
+									<input id="password" type="text" class="validate">
+									<label for="password">Password</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s6">
+									<a href="#!">Forgot Password?</a>
+								</div>
+								<div class="col s6 right">
+									<button type="submit"  class="btn full waves-effect waves-light green darken-2"><i class="large material-icons tooltipped hide-on-med-and-up show-on-small"  data-position="bottom" data-tooltip="Log In">lock_open</i><span class="hide-on-small-only">Log In</span></button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+	<script type="text/javascript" src="assets/js/global.js"></script>
+</body>
+</html>
